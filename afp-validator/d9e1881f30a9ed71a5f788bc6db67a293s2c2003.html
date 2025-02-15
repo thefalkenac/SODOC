@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="es" class="theme-2">
+<head>
+    <meta charset="utf-8">
+    <link href="https://sesion-sodoc.cl/dist/images/logo.svg" rel="shortcut icon">
+    <meta name="csrf-token" content="OulE9kvjhZx46HJ8pXDNvntgylJ5xIs5SAb1xjFJ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="SODOC - Sistema de Obtención de Documentos Consulares">
+    <meta name="keywords" content="SODOC - Sistema de Obtención de Documentos Consulares">
+
+    <title>Validador de Declaración Jurada para retiro de fondos AFP - SIREC</title>
+
+    <!-- BEGIN: CSS Assets-->
+    <link rel="stylesheet" href="../dist/css/app.css" />
+    <!-- END: CSS Assets-->
+</head>
+
+<body class="main">
+    <div class="container">
+        <!-- BEGIN: Validación -->
+        <div class="flex flex-col lg:flex-row items-center justify-center h-screen text-center lg:text-left">
+            <div class="-intro-x lg:mr-20">
+                <svg class="w-48 h-48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#fff">
+                    <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"/>
+                </svg>
+            </div>
+            <div class="text-white mt-10 lg:mt-0 w-full md:w-1/2">
+                <div class="flex justify-center md:justify-start">
+                    <img class="mb-4 text-center" style="width: 50%" src="../img/logoc4ca.png?1" alt="">
+                </div>
+                <div class="intro-x text-5xl font-medium mt-4">Declaración Jurada Válida</div>
+                <div class="intro-x text-xl lg:text-4xl font-medium mt-5">Ésta Declaración Jurada es válida.</div>
+                <div class="intro-x text-xl lg:text-3xl font-medium mt-5"> <b>Nombre: MARCOS ANTONIO ESCOBAR HERRERA</b>, portador de la cédula N° <b>12821120</b> </div>
+                <div class="intro-x text-xl lg:text-3xl font-medium mt-5"> <b>Fecha de Inscripción en el IVSS: 08-10-1998</b><br> Administradora de Fondos: <b>AFP PROVIDA</b> </div>
+                <div class="intro-x text-lg mt-3"> Embajada de la República Bolivariana de Venezuela en Chile. </div>
+            </div>
+        </div>
+        <!-- END: Validación -->
+    </div>
+    <div class="hidden loading col-span-6 sm:col-span-3 xl:col-span-2 flex flex-col justify-center items-center absolute h-screen w-screen top-0 z-2000 bg-black opacity-75">
+        <i data-loading-icon="bars" class="w-8 h-8"></i>
+        <div class="text-center text-xs mt-2">Cargando</div>
+    </div>
+    <script>
+        var user = undefined;
+        var role = undefined;
+        const ENV_COUNTRY = 'CHI';
+        const ENV_COUNTRY_ID = '38';
+        const ENV_COUNTRY_NAME = 'Chile';
+    </script>
+
+    <!-- BEGIN: JS Assets-->
+    <script src="../dist/js/app.js"></script>
+    <!-- END: JS Assets-->
+
+</body>
+</html>
